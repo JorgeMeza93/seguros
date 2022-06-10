@@ -1,0 +1,11 @@
+:root{
+    --primary
+}
+html{
+    box-sizing: border-box; /*fija el ancho*/
+    font-size: 62.5%; /*para tener una base de 10px*/
+
+}
+*, *:before, *:after { 
+  box-sizing: inherit;
+}
