@@ -4,10 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Discoverage Insurance</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header__barra">
+            <div class="header__logo">
+                <img class="header__logotipo" alt="logo" src="img/logodiscoverage.png">
+            </div>
+            <nav class="header__navegacion">
+                <a href="#" class="header__enlace">Inicio</a>
+                <a href="#" class="header__enlace">Nosotros</a>
+                <a href="#" class="header__enlace">Comentarios</a>
+            </nav>
+        </div> <!--header-barra-->
+        <div class="header__modelo">
+            <div class="header__texto">
+                <h2 class="header__heading">Tu Recomendador de Seguros</h2>
+                <p class="header__descripcion">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, illo. Dolor dignissimos officiis non voluptatibus odit aliquid. Lorem ipsum dolor.
+                </p>
+            </div>
+            <img src="img/bmw-removebg-preview.png" alt="bmw" class="header__auto">
+        </div>
+    </header> <!--fin header-->
+    <section class="nosotros">
+        <div class="nosotros__contenido contenedor">
+            <p class="nosotros__parrafo">Quieres contratar tu seguro de auto y no sabes cuál...</p>
+            <h2 class="nosotros__heading">Nosotros te ayudamos!!!!!</h2>
+            <p class="nosotros__descripcion">Estas a un sólo click de conocer las mejores coberturas para tu auto y el respectivo monto a cubir para que estes completamente protegido. Prueba ya, es gratis.</p>
+        </div>
+    </section>
+    <section class="formulario">
+        <div class="formulario__contenedor">
+            <h2 class="formulario__heading">Ingresa tus datos</h2>
+            <form class="formulario__form">
+                <div class="formulario__campo">
+                    <select name="estado" id="estado" class="formulario__select">
+                        <option>CDMX</option>
+                        <option>Baja California</option>
+                    </select>
+                </div>
+                <div class="formulario__campo">
+                    <select name="estado" id="estado" class="formulario__select">
+                        <option>CDMX</option>
+                        <option>Baja California</option>
+                    </select>
+                </div>
+                <div class="formulario__campo">
+                    <select name="estado" id="estado" class="formulario__select">
+                        <option>CDMX</option>
+                        <option>Baja California</option>
+                    </select>
+                </div>
+                <div class="formulario__campo">
+                    <select name="estado" id="estado" class="formulario__select">
+                        <option>CDMX</option>
+                        <option>Baja California</option>
+                    </select>
+                </div>
+                <div class="formulario__campo-boton">
+                    <input type="submit" id="submit" class="formulario__submit" value="Recomendar">
+                </div>
+            </form>
+        </div>
+    </section> <!--Fin Formulario-->
+    <section class="carrousel">
+        <h2 class="carrousel__heading">¿Sabías qué?</h2>
+        <div class="carrousel__contendido contenedor">
+            <button class="carrousel__boton prev">&#62;</button>
+            <button class="carrousel__boton next">&#60;</button>
+            <ul class="carrousel__slides">
+                <li class="carrousel__slide" data-active>
+                    <img src="img/hawaii.jpg" alt="Hawaii" class="carrousel__img">
+                </li>
+                <li class="carrousel__slide">
+                    <img src="img/madagascar.jpg" alt="Hawaii" class="carrousel__img">
+                </li>
+                <li class="carrousel__slide">
+                    <img src="img/rio-de-janeiro.jpg" alt="Hawaii" class="carrousel__img">
+                </li>
+                <li class="carrousel__slide">
+                    <img src="img/volcano.jpg" alt="Hawaii" class="carrousel__img">
+                </li>
+            </ul>
+        </div> <!--contenido-->
+    </section>
+   <script src="js/app.js"></script>
 </body>
 </html>
