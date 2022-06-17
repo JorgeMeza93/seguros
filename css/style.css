@@ -346,7 +346,7 @@ a{
 }
 .carrousel__slide[data-active]{
   opacity: 1;
-  transition-delay: 0;
+  transition-delay: 0ms;
 }
 .carrousel__img{
   display: block;
